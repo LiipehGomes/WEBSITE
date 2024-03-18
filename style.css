@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#faixa1{
+    background-color: #023E84;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+}
+
+#faixa1 img{
+    padding: 8px 5px 8px 5px;
+}
+
+#logo-menu{
+    width: 100%;
+    height: 300 px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50 px;
+    font-size: 20pt;
+    ;
+}
+
+#logo{
+    width: 30%;
+    padding: 5px;
+}
+
+#menu{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#menu ul{
+    display: flex;
+}
+
+#menu li{
+    flex-direction: row;
+    padding: 15px;
+}
+
+#menu li a{
+    color: #023E84;
+}
+
+#search-box{
+    width: 30%;
+    justify-content: right;
+    display: flex;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+
+#search-box input{
+    border: solid 2;
+    border-radius: 5px;
+    border-color: #023E84;
+    padding-left: 10px;
+}
+
+#txtbusca{
+    width: 350px;
+    height: 30px;
+    padding-right: 80px;
+}
+
+#line{
+    width: 100%;
+    height: 2px;
+    background-color: #023E84;
+}
+
+#banner{
+    width: 100%;
+    height: 400px;
+    background-color: #023E84;
+}
+
+#banner img{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+#banner-cover{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color: #023E84;
+    top: 117px;
+    opacity: 0.6;
+}
+
+#txt-banner{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+
+}
+
+#Text-banner{
+    flex-direction: row;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Inria Serif;
+    padding-top: 45px;
+}
+
+#table-services{
+    width: 100%;
+    height: 1000px;
+    background-color: #023E84;
+}
