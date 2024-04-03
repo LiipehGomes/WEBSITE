@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color: #023E84;
+}
+
+.contend-forms{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.text-form{
+    font-size: 35pt;
+    color: #fff;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#card-form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}

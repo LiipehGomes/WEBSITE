@@ -206,6 +206,10 @@ img{
     text-align: center;
 }
 
+.tax-contend p{
+    font-size: 40pt;
+}
+
 .tax-img-contend{
     margin-top: 40px;
     margin-bottom: 20px;
@@ -213,8 +217,8 @@ img{
     margin-right: 40px;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 800px;
+    width: auto;
+    height: 700px;
 }
 
 .tax-img{
@@ -231,7 +235,7 @@ img{
 }
 
 .text-contend{
-    margin: 30px;
+    margin-top: 30px;
     padding-left: 50px;
     font-size: 35pt;
     text-align: center;
@@ -250,4 +254,113 @@ img{
     height: 3px;
     margin: 40px;
     background-color: black;
+}
+
+.email-newsletter{
+    width: auto;
+}
+
+#email{
+    width: 650px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#email::-webkit-input-placeholder{
+    color: #023E84;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+footer{
+    width: auto;
+    height: auto;
+    background-color: #023E84;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+}
+
+.firstside{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-bottom: 70px;
+}
+
+.firstside h3{
+    font-size: 28pt;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.secondside{
+    display: flex;
+    width: 50%;
+}
+
+.secondsidecontainer{
+    width: 100%;
+    height: auto;
+}
+
+.secondside{
+    width: auto;
+}
+
+.secondsidetext{
+    padding-top: 55px;
+    padding-left: 150px;
+}
+
+.secondsidetext h3{
+    font-size: 28pt;
+    color: #fff;
+}
+
+.socialmedias{
+    display: flex;
+}
+
+.socialmediasicons{
+    display: flex;
+    padding-top: 55px;
+    padding-left: 150px;
+}
+
+.socialmediasicons img{
+    width: 80px;
+    height: 80px;
+    padding-right: 10px;
+}
+
+.footer-contend{
+    display: flex;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright h3{
+    font-size: 20pt;
+    color: #fff;
+}
+
+.bttn-input button{
+    width: 150px;
+    height: 30px;
+    background-color: #023E84;
+    color: #fff;
+    border: #023E84;
+    border-radius: 15px;
 }
